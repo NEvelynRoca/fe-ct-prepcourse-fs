@@ -15,7 +15,6 @@ function tienenMismaLongitud(str1, str2) {
    // Retorna true si los dos strings tienen la misma longitud.
    // De lo contrario, retorna false.
    // Tu código:
-
       const arr1 = [...str1];
       const arr2 = [...str2];
   return arr1.length === arr2.length;
